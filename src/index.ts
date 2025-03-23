@@ -57,5 +57,5 @@ io.on('connection', (socket) => {
 const PORT = +(process.env.APP_PORT || 8000);
 
 server.listen(PORT, () => {
-  console.log(`Сервер работает на порту ${PORT}`);
+  console.log(`[SERVER] run ${PORT}`);
 });
