@@ -6,7 +6,7 @@ services:
             dockerfile: Dockerfile
         env_file:
             - .env
-        command: sh -c "npm run start:prod"
+        command: sh -c "npm start"
         restart: always
         ports:
             - ${APP_PORT}:${APP_PORT}
